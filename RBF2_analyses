@@ -1,0 +1,17 @@
+ 
+ name		strategy	trainings	features	classes		tasks	testings	trainingtime	testingtime		Rate
+
+ adult		bin(evo)	32561		123			2			1		16281		33789.9 msec	472.5 msec		60.733372
+ 			ava			32561		123			2			1		16281		34052.3 msec	462.0 msec		64.799461
+ web		bin(evo)	49749		300			2			1		14951		10180.2 msec	486.0 msec		96.970100
+			ava			49749		300			2			1		14951		10505.5 msec	519.6 msec		96.976791
+ mnist		bin(evo)	60000		780			10			1		10000		Crash			N/A				N/A
+			ova			*			*			*			*		*			*				*				*
+			ava			*			*			*			*		*			*				*				*
+ usps		bin(evo)	7291		256			10			1		2007		2320.2 msec		60.5 msec		28.251122
+ 			ova			7291		256			10			10		2007		4571.9 msec		70.7 msec		32.884903
+ 			ava			7291		256			10			45		2007		2339.9 msec		107.8 msec		18.136522
+ shuttle	ova			43500		9			7			7		14500		12655.7 msec	373.2 msec		79.158623
+ 			ava			43500		9			7			21		14500		9662.8 msec		388.7 msec		14.862069
+ letter		ova			15000		16			26			26		5000		16524.7 msec	189.8 msec		8.420000
+			ava			*			*			*			*		*			*				*				*
